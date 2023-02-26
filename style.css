@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    background-color: rgb(69, 69, 69);
+    flex-wrap: wrap;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.subsection1, .subsection2, .subsection3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flag {
+    background-color: rgb(246, 240, 240);
+    width: 250px;
+    height: 150px;
+}
+
+#spa1, #spa3 {
+    background-color: rgb(204, 17, 17);
+    height: 25%
+}
+
+#spa2 {
+    background-color: rgb(238, 189, 28);
+    height: 50%;
+}
+
+#arg1, #arg3 {
+    background-color: rgb(87, 163, 201);
+    height: 33.33%;
+}
+
+#arg2 {
+    background-color: rgb(255, 255, 255);
+    height: 33.33%;
+}
+
+#ale1 {
+    background-color: black;
+    height: 33.33%;
+}
+
+#ale2 {
+    background-color: red;
+    height: 33.33%;
+}
+
+#ale3 {
+    background-color: rgb(223, 196, 75);
+    height: 33.33%;
+}
+
+#fra1 {
+    background-color: blue;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+#fra2 {
+    background-color: white;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+#fra3 {
+    background-color: red;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+#ita1 {
+    background-color: rgb(14, 91, 41);
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+#ita2 {
+    background-color: white;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+#ita3 {
+    background-color: red;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.blue{
+    background-color: blue;
+    height: 17%;
+}
+
+.withe {
+    background-color: white;
+    height: 17%;
+}
+
+#costr3 {
+    background-color: red;
+    height: 33%;
+}
+
+.impar {
+    background-color:  rgb(238, 189, 28);
+    height: 11.11%;
+}
+
+.par {
+    background-color:  rgb(204, 17, 17);
+    height: 11.11%;
+}
+
+#guibs {
+    display: flex;
+}
+
+#guibs1 {
+    width: 35%;
+    background-color: red;
+}
+
+#containerGibs2y3 {
+    display: block;
+    width: 65%;
+}
+
+#guibs2 {
+    background-color: yellow;
+    height: 50%;
+}
+
+#guibs3 {
+    background-color: green;
+    height: 50%;
+}
+
+#pal {
+    display: flex;
+}
+
+#pal1 {
+    width: 20%;
+    background-color: red;
+}
+
+#containerPal2-3y4 {
+    display: block;
+    width: 80%;
+}
+
+#pal2 {
+    background-color: green;
+    width: 33.33%;
+}
+
+#pal3 {
+    background-color: white;
+    height: 33.33%
+}
+
+#pal4 {
+    background-color: black;
+    height: 33.33%
+}
+
+#jap {
+    display: flex;
+}
+
+#jap1 {
+    background-color: red;
+}
